@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
+    <meta name="author" content="Kent Luyckx">
+    <meta name="description" content="Contact formulier">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+
+<body>
+<header>
+    <!-- Navigatie -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navigatie">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kent Luyckx</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li><a class="dropdown-item" href="index.html">Over mezelf</a></li>
+                    <li><a class="dropdown-item" href="ervaring.html">Ervaring</a></li>
+                    <li><a class="dropdown-item" href="cv.html">Curriculum Vitae</a></li>
+                    <li><a class="dropdown-item" href="hobby.html">Hobbies</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="nav-link disabled" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top button -->
+    <button type="button" class="btn btn-warning btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</header>
+<!-- Jumbotron -->
+<div class="p-5 bg-light rounded-3" id="cv">
+    <div class="container-fluid py-5 row">
+        <h1 class="display-5 fw-bold">Contact</h1>
+        <div class="col-md-8 d-flex align-items-center">
+            <p>Om u zo snel mogelijk te contacteren vul a.u.b. onderstaand formulier in</p>
+        </div>
+    </div>
+</div>
+
+
+<main class="container py-1">
+    <form action="" method="post">
+        <div class="row">
+            <div class="col-sm-6">
+                <label for="first_name" class="font-weight-bold">Voornaam</label>
+                <input type="text" class="form-control" id="first_name" name="first_name" required>
+            </div>
+            <div class="col-sm-6">
+                <label for="last_name" class="font-weight-bold">Familie naam</label>
+                <input type="text" class="form-control" id="last_name" name="last_name" required>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <label for="skills">Vragen over skill</label>
+                <select class="form-select" id="skills" name="skills" size="1" required>
+                    <option value="B">Bootstrap</option>
+                    <option value="C">CSS</option>
+                    <option value="H">HTML</option>
+                    <option value="J">Javascript</option>
+                    <option value="C">C#</option>
+                    <option value="J">Java</option>
+                    <option value="P">Python</option>
+                    <option value="R">Ruby</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="email" class="font-weight-bold">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="comments" class="font-weight-bold">Bijkomende informatie</label>
+            <p>
+                <textarea rows="5" class="form-control" id="comments" name="comments" placeholder="Voer hier bijkomende informatie in (niet verplicht)"> </textarea>
+            </p>
+        </div>
+
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="terms" name="terms" value="on">
+                <label class="form-check-label" for="terms">
+                    Ik accepteer de termen en voorwaarden
+                </label>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btn btn-warning" value="Verstuur">
+        </div>
+    </form>
+</main>
+
+<!-- Footer -->
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <i class="far fa-copyright"></i>
+                        <span class="copyright">Copyright &copy; Kent Luyckx</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <i class="fas fa-at"></i>
+                        <a href="mailto: r0803509@student.thomasmore.be" class="icon-color link">Email</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fas fa-code-branch"></i>
+                        <a href="https://github.com/KentLuyckx" class="icon-color link">Github</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-twitter"></i>
+                        <a href="#" class="icon-color link">Twitter</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-facebook"></i>
+                        <a href="#" class="icon-color link">Facebook</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fas fa-camera"></i>
+                        <a href="https://www.pexels.com/@kent-luyckx-3779090" class="icon-color link">Pexels</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

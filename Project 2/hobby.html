@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hobbies</title>
+    <meta name="author" content="Kent Luyckx">
+    <meta name="description" content="Een pagine over mijn hobbies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+
+<body>
+<header>
+    <!-- Navigatie -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navigatie">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kent Luyckx</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li><a class="dropdown-item" href="index.html">Over mezelf</a></li>
+                    <li><a class="dropdown-item" href="ervaring.html">Ervaring</a></li>
+                    <li><a class="dropdown-item" href="cv.html">Curriculum Vitae</a></li>
+                    <li><a class="nav-link disabled" href="hobby.html">Hobbies</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Top button -->
+    <button type="button" class="btn btn-warning btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Jumbotron -->
+    <div class="p-5 bg-light rounded-3" id="cv">
+        <div class="container-fluid py-5 row">
+            <h1 class="display-5 fw-bold">Hobbies</h1>
+            <div class="col-md-8 d-flex align-items-center">
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<article id="fighting_games">
+    <section id="geschiedenis">
+        <h2>Fighting games</h2>
+        <h3>Geschiedenis</h3>
+        <h4>Street Fighter - De koning van 2D</h4>
+        <p>De exacte origine van fighting games is merkwaardig wat lastig om te pinpointen. Voor vele was het begin
+            Street Fighter II;
+            een spel gemaakt door Capcom dat in 1991 voor het eerst in arcades verscheen (en later op thuis consoles
+            zoals SNES een jaar later).
+            Nu valt hopelijk de "II" in de naam op. Er was inderdaad een Street Fighter dat uitkwam in 1987 maar door
+            velen gemist werd.
+            Street fighter wordt gekenmerkt door zijn 2D-graphics, en hoewel er sinds Street Fighter IV (2008)
+            3D-modellen worden gebruikt
+            voor de karakters en achtergronden - waren deze vroeger allemaal met de hand getekende sprites. Verder is
+            een groot kenmerk van
+            Street Fighter het gebruik van verschillende "edities". Edities zijn een soort van betaalde
+            expansies/hotfixes die vaak nieuwe karakters
+            toevoegen en bestaande karakters aanpassen. Deze traditie werd doorgetrokken naar de meest recente game in
+            de serie.</p>
+
+        <p>Hoewel er een pro-tour is voor Street Fighter V, die officieel gesponsord is door Capcom met waanzinnige
+            prijzenpotten, houd
+            de community ook nog oudere spellen in leven. Street Fighter II: Turbo en Street Fighter III: Third Strike
+            zijn hier de 2 grootste
+            voorbeelden van.</p>
+
+        <div class="py-3">
+            <!-- Street Fighter Carousel -->
+            <div id="carouselStreetFighter" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselStreetFighter" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselStreetFighter" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselStreetFighter" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/streetfighter/streetfighter2.jpg" class="d-block w-100"
+                             alt="Street Fighter 2: Super Turbo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Street Fighter 2</h5>
+                            <p>Originele release in 1991</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/streetfighter/streetfighter3.jpg" class="d-block w-100"
+                             alt="Street Fighter 3: Third Strike">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Street Fighter 3</h5>
+                            <p>Originele release in 1997</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/streetfighter/streetfighter5.jpg" class="d-block w-100" alt="Street Fighter 5">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Street Fighter 5</h5>
+                            <p>Originele release in 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselStreetFighter"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselStreetFighter"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <div class="py-3">
+        <!-- Tekken carousel -->
+        <div id="carouselTekken" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselTekken" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselTekken" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselTekken" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/tekken/tekken1.jpg" class="d-block w-100" alt="Tekken 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tekken 1</h5>
+                        <p>Originele release in 1994</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/tekken/tekken4.jpg" class="d-block w-100" alt="Tekken 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tekken 4</h5>
+                        <p>Originele release in 2001</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/tekken/tekken7.jpg" class="d-block w-100" alt="Tekken è">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tekken 7</h5>
+                        <p>Originele release in 2015</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselTekken" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselTekken" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="py-3">
+        <!-- King of Fighters Carousel -->
+        <div id="carouselKingOfFighters" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselKingOfFighters" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselKingOfFighters" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselKingOfFighters" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/kingoffighters/kof94.jpg" class="d-block w-100" alt="King of Fighters 94">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>King of Fighters 94</h5>
+                        <p>Originele release in 1994</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src=img/kingoffighters/kof2002.png class="d-block w-100" alt="King of Fighters 2002">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>King of Fighters 2002</h5>
+                        <p>Originele release in 2001</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/kingoffighters/kof13.jpg" class="d-block w-100" alt="King of Fighters 13">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>King of Fighters 13</h5>
+                        <p>Originele release in 2015</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselKingOfFighters"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselKingOfFighters"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <section id="favorieten">
+        <h3>Mijn top 3</h3>
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Tekken_7">Tekken 7</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Street_Fighter_III:_3rd_Strike">Street Fighter III: Third
+                Strike</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Guilty_Gear_Xrd">Guilty Gear Xrd REV 2</a></li>
+        </ol>
+    </section>
+
+    <section id="info">
+        <h3>Meer informatie</h3>
+        <p>Voor meer informatie kan u altijd terecht bij <a href="https://shoryuken.com/">SRK - Shoryuken</a></p>
+    </section>
+</article>
+
+<article id="gunpla">
+    <section>
+        <h2>Gunpla</h2>
+        <img src="img/gunpla/gunpla_collection_unsplash.jpg" alt="Gunpla collectie" height="380" width="500">
+        <p>Gunpla worden gemaakt door Bandai in Japan of China, zij hebben exclusieve rechten voor het maken en marketen
+            van de kits
+            wereldwijd. De eerste Gunpla kits werden in 1980 verkocht in Japan</p>
+        <p>Gunpla kits bestaan uit verschillende "runners", dit zijn verschillende bladen van onderdelen die samen
+            klikken
+            (de meeste kits na 1990) of die lijm nodig hebben (oudere modellen voor 1990) om in elkaar te zetten. De
+            cover illustratie, of box art
+            is meestal gedaan door een illustrator met een afbeelding gebaseerd op de mecha die men met de kit bouwt.
+            Alle Gunpla
+            komen met stickers die extra kleuren en markeringen toevoegen zoals gezien in de shows, films, manga of
+            games.
+            Kleinere of lagere graads kits hebben vaak wat extra schilder werk nodig om een model een afgewerkt
+            uiterlijk te geven.</p>
+        <p>De kits komen in verschillende schalen, waaruit de meest populaire 1:144 (ongeveer 13 cm groot), 1:100
+            (ongeveer 16-19cm groot)
+            1:60 (ongeveer 30 cm groot) zijn. Andere schalen, waaronder 1:200, 1:48 en de SD (super deformed) series
+            bestaan ook</p>
+        <p>Sinds de eerste release zijn er constante verbeteringen aan de kwaliteit van het ontwerp, materiaal, en
+            fabricage techniek gebeurt door Bandai
+            De standaard kits van de late jaren 80 (die Bandai geregeld opnieuw uitbrengt) hebben cement, leem en verf
+            nodig. Wanneer men deze
+            kits volledig bouwt hebben ze een zeer gelimiteerde bewegingsvrijheid waardoor ze bijna niet te poseren
+            zijn. Deze modellen
+            krijgen soms de naam FG (First Grade)</p>
+    </section>
+
+    <section id="types">
+        <h3>Types</h3>
+        <h4>High Grade (HG)</h4>
+        <p>De basis-grade. Eerst op de markt gebracht in 1990, deze modellen zijn meestal in de schaal 1:144, maar
+            sommige oudere kits
+            zijn in 1:100.</p>
+        <p>In Mei 1999 heeft de HG lijn een update gekregen. Door nieuwe technologie en plastic injectie zagen deze kits
+            nieuwe mechanische verbeteringen.
+            In 2013, toen Bandai het "All Gundam Project" lanceerde toen Gundam Build Fighters voor het eerst op TV
+            verscheen zijn er
+            nieuwe mogelijkheden voor de HG. Modellen van alternatieve tijdlijnen, die hiervoor geen HG-model hadden en
+            de "Universal Joint Technology" van duurdere modellen
+            waren nu te vinden in de HG-reeks.</p>
+
+        <h4>Real Grade (RG)</h4>
+        <p>Gelanceerd in juli 2010. Bandai introduceerde deze 1:144 schaal als deel van het 30-jarig bestaan van de
+            Gundam serie.
+            Deze modellen nemen ontwerp elementen van de Master en Perfect Grade modellen - zoals een intern skelet.
+            Deze modellen
+            zijn vaak ontworpen met het oogpunt op "realisme"</p>
+
+        <h4>Master Grade (MG)</h4>
+        <p>Sinds 1995 zijn deze 1:100 schaal modellen op de markt. Met hogere kwaliteit van plastic wordt een hogere
+            standaard bereikt.
+            Maar ook aan een iets hogere prijs, complexiteit, en bouwtijd. Deze modellen hebben weinig aanpassing nodig
+            om er "uit de box" presentabel uit te zien.
+            Maar met een likje verf en wat detailing kan men het resultaat sterk bevorderen</p>
+
+        <h4>Perfect Grade (PG)</h4>
+        <p>Deze 1:60 schaal modellen zijn van de allerhoogste kwaliteit (en ook prijs). Sommige komen met metalen
+            componenten en leds. Hierdoor zijn
+            schroeven en kennis van bedrading soms nodig. De markt voor PG-kits is vrij beperkt door de hoge kosten
+            (tussen $ 100 en $ 300). De opbouw van een zo'n kit
+            kan dagen tot weken in beslag nemen.</p>
+    </section>
+</article>
+
+<!-- Footer -->
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <i class="far fa-copyright"></i>
+                        <span class="copyright">Copyright &copy; Kent Luyckx</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <i class="fas fa-at"></i>
+                        <a href="mailto: r0803509@student.thomasmore.be" class="icon-color link">Email</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fas fa-code-branch"></i>
+                        <a href="https://github.com/KentLuyckx" class="icon-color link">Github</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-twitter"></i>
+                        <a href="#" class="icon-color link">Twitter</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-facebook"></i>
+                        <a href="#" class="icon-color link">Facebook</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fas fa-camera"></i>
+                        <a href="https://www.pexels.com/@kent-luyckx-3779090" class="icon-color link">Pexels</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

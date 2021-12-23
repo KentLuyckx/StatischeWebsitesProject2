@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Kent Luyckx">
+    <meta name="description" content="Welkom op mijn persoonlijke webstek!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;Kent Luyckx&gt;</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+
+<body>
+<!-- Navigatie -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navigatie">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kent Luyckx</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li><a class="nav-link disabled" href="#info">Over mezelf</a></li>
+                <li><a class="dropdown-item" href="ervaring.html">Ervaring</a></li>
+                <li><a class="dropdown-item" href="cv.html">Curriculum Vitae</a></li>
+                <li><a class="dropdown-item" href="hobby.html">Hobbies</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Top button -->
+<button type="button" class="btn btn-warning btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Jumbotron -->
+<div class="p-5 bg-light rounded-3" id="info">
+    <div class="container-fluid py-5 row">
+        <h1 class="display-5 fw-bold">Over mezelf</h1>
+        <div class="col-md-8 d-flex align-items-center">
+            <p>Welkom op de portfolio-website van Kent Luyckx, student aan Thomas More Campus Geel in
+                de opleiding Graduaat Programmeren.
+                Komende uit de Bachelor-ICT opleiding heb ik hier en daar al wat voorkennis over wat me te wachten
+                staat.
+                Maar het leven van een IT-er is om altijd te blijven leren en beter te worden in de kunst
+                van het designen en programmeren. Om elke keer opnieuw innovaties op te jagen. Om steeds weer opnieuw de
+                uitdaging
+                met jezelf aan te gaan om nieuwe dingen te proberen.
+                <br>
+                Welkom op mijn reis.</p>
+        </div>
+        <div class="col-md-4 d-flex align-items-center">
+            <img class="mx-auto rounded-circle" src="img/admin/Kent.png" alt="">
+        </div>
+        <div class="accordion accordion-flush pt-2">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Sterke Punten
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><p>Flexibel: Ik ben zelf van veel markten thuis en leer graag nieuwe dingen bij</p></li>
+                            <li><p>Nauwkeurig: Ik hou van een goede organisatie</p></li>
+                            <li><p>Doorzetter: Als ik mijn zinnen ergens op heb gezet dan ga ik er 100% voor</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Minpunten
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><p>Neurodivers: Omdat ik zowel autisme als ADD heb zijn er wel wat valkuilen voor
+                                mij</p></li>
+                            <li><p>Chaotisch: Hoewel ik heel nauwkeurig kan zijn, spring ik vaak van het ene naar het
+                                andere project</p></li>
+                            <li><p>Onzeker: Omdat er voor in de wereld van IT 100 antwoorden zijn op 1 vraag is het soms
+                                moeilijk om besluitvaardig te zijn</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Kaarten -->
+<div class="card-group">
+    <div class="card">
+        <i class="fas fa-business-time fa-3x card-img-top text-center pt-2"></i>
+        <div class="card-body">
+            <h5 class="card-title text-center">Ervaring</h5>
+            <p class="card-text text-center">Bekent met verschillende talen en frameworks</p>
+        </div>
+        <div class="card-footer text-center">
+            <a href="ervaring.html" class="btn btn-warning">Hoofdpagina</a>
+        </div>
+    </div>
+    <div class="card">
+        <i class="fas fa-address-card fa-3x card-img-top text-center pt-2"></i>
+        <div class="card-body">
+            <h5 class="card-title text-center">Curriculum Vitae</h5>
+            <p class="card-text text-center">Hoewel deze website al wat aantoont, is er ook een aparte cv
+                beschikbaar.</p>
+        </div>
+        <div class="card-footer text-center">
+            <a href="cv.html" class="btn btn-warning">Hoofdpagina</a>
+        </div>
+    </div>
+    <div class="card">
+        <i class="fas fa-dice-d20 fa-3x card-img-top text-center pt-2"></i>
+        <div class="card-body">
+            <h5 class="card-title text-center">Hobbies</h5>
+            <p class="card-text text-center">Van games tot modelbouw. Ik ga geen enkele uitdaging uit de weg.</p>
+        </div>
+        <div class="card-footer text-center">
+            <a href="hobby.html" class="btn btn-warning">Hoofdpagina</a>
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div class="px-4 py-5 my-5 text-center bg-light">
+    <svg class="d-block mx-auto mb-4" width="200" height="200">
+        <circle cx="50" cy="50" r="30" fill="#ef9273"/>
+        <polygon points="130,40 200,180 70,180" fill="lightgray"/>
+        <polygon points="100,70 150,180 50,180" fill="gray"/>
+        <polygon points="65,100 100,180 30,180" fill="black"/>
+    </svg>
+    <h1 class="display-5 fw-bold">Contact</h1>
+    <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Neem contact met mij op.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="contact.html" class="btn btn-warning btn-lg px-4 gap-3">Contacteer mij</a>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <i class="far fa-copyright"></i>
+                        <span class="copyright">Copyright &copy; Kent Luyckx</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <i class="fas fa-at"></i>
+                        <a href="mailto: r0803509@student.thomasmore.be" class="icon-color link">Email</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fas fa-code-branch"></i>
+                        <a href="https://github.com/KentLuyckx" class="icon-color link">Github</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-twitter"></i>
+                        <a href="#" class="icon-color link">Twitter</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fab fa-facebook"></i>
+                        <a href="#" class="icon-color link">Facebook</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <i class="fas fa-camera"></i>
+                        <a href="https://www.pexels.com/@kent-luyckx-3779090" class="icon-color link">Pexels</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
